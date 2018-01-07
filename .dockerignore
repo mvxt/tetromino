@@ -1,0 +1,7 @@
+# Items to not copy into Docker image
+.git*
+*Dockerfile*
+*docker-compose*
+node_modules
+README.md
+*.log

@@ -1,0 +1,32 @@
+{
+  "name": "tetromino",
+  "version": "1.0.0",
+  "description": "A basic tetris game built in PhaserJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ./src/main.js",
+    "test": "npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvxt/tetromino.git"
+  },
+  "keywords": [
+    "tetris",
+    "game",
+    "javascript",
+    "phaserjs"
+  ],
+  "author": "Michael Vinh Xuan Thanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvxt/tetromino/issues"
+  },
+  "homepage": "https://github.com/mvxt/tetromino#readme",
+  "dependencies": {
+    "phaser-ce": "^2.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  }
+}
